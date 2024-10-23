@@ -1,0 +1,8 @@
+package src2;
+
+public class StudentScore implements IntFunction<Student> {
+    @Override
+    public int apply(Student student) {
+        return student.getScore();
+    }
+}
