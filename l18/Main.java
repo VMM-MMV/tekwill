@@ -52,12 +52,12 @@ public class Main {
         // date = date.plusYears(5);
         // System.out.println(date);
 
-        // LocalDate date = LocalDate.of(2014, Month.JANUARY, 20)
-        //     .plusDays(2)
-        //     .plusWeeks(1)
-        //     .minusDays(2)
-        //     .plusMonths(1)
-        //     .plusYears(5);
+        LocalDate date = LocalDate.of(2014, Month.JANUARY, 20)
+            .plusDays(2)
+            .plusWeeks(1)
+            .minusDays(2)
+            .plusMonths(1)
+            .plusYears(5);
 
         // System.out.println(date);
 
