@@ -1,0 +1,3 @@
+        Runnable task = () -> modifyArray(sharedArray);
+
+        Thread thread1 = new Thread(task);
