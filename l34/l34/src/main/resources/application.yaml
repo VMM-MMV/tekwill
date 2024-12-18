@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://junction.proxy.rlwy.net:19351/railway
+    username: postgres
+    password: rFNSxHYtlCbvsDErQGjDBnjPFinHyxpC
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
